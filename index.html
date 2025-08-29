@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Demonstration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">BoxModel Demo</h1>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h2>Understanding the CSS Box Model</h2>
+                <p>Learn how margin, padding, and borders work together to create beautiful layouts.</p>
+                <button class="cta-button">Get Started</button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h3>About the Box Model</h3>
+            <p>Every element in web design is a rectangular box. The CSS Box Model describes how these boxes are sized and spaced.</p>
+            <div class="box-model-visual">
+                <div class="margin-box">
+                    Margin
+                    <div class="border-box">
+                        Border
+                        <div class="padding-box">
+                            Padding
+                            <div class="content-box">
+                                Content
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section with Cards -->
+        <section id="services" class="services-section">
+            <h3>Our Services</h3>
+            <div class="cards-container">
+                <div class="card">
+                    <h4>Web Design</h4>
+                    <p>Creating beautiful and functional websites with proper spacing and layout.</p>
+                    <button class="card-button">Learn More</button>
+                </div>
+                <div class="card">
+                    <h4>CSS Consulting</h4>
+                    <p>Expert advice on styling, spacing, and modern CSS techniques.</p>
+                    <button class="card-button">Learn More</button>
+                </div>
+                <div class="card">
+                    <h4>Layout Development</h4>
+                    <p>Building responsive layouts that work across all devices.</p>
+                    <button class="card-button">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h3>Contact Us</h3>
+            <p>Have questions about the Box Model? Get in touch with our team!</p>
+            <div class="contact-form">
+                <input type="text" placeholder="Your Name" class="form-input">
+                <input type="email" placeholder="Your Email" class="form-input">
+                <textarea placeholder="Your Message" class="form-textarea"></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 CSS Box Model Demonstration. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
